@@ -52,8 +52,8 @@ components of Rocket.
 Rocket applications are centered around routes and handlers. A _route_ is a
 combination of:
 
-  * A set of parameters to match an incoming request against.
-  * A handler to process the request and return a response.
+* A set of parameters to match an incoming request against.
+* A handler to process the request and return a response.
 
 A _handler_ is simply a function that takes an arbitrary number of arguments and
 returns any arbitrary type.
