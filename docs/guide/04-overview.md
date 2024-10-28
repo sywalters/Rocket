@@ -289,7 +289,7 @@ First, notice that the route function is an `async fn`. This enables the use of
 
 ### Multitasking
 
-Rust's `Future`s are a form of *cooperative multitasking*. In general, `Future`s
+Rust's `Future`s are a form of _cooperative multitasking*. In general, `Future`s
 and `async fn`s should only `.await` on operations and never block.  Some common
 examples of blocking include locking non-`async` mutexes, joining threads, or
 using non-`async` library functions (including those in `std`) that perform I/O.
